@@ -1,5 +1,5 @@
 {
-  "name": "nmcli",
+  "name": "gnome-nmcli",
   "version": "0.1.0",
   "description": "nmcli library to control network interfaces",
   "main": "lib/nmcli.js",
