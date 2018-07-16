@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "description": "nmcli library to control network interfaces",
   "main": "lib/nmcli.js",
-  "repository": "git@github.com:lionep/node-nmcli.git",
+  "repository": {
+    "url": "git@github.com:lionep/node-gnome-nmcli.git"
+  },
   "author": "Lionel Penaud <penaud.lionel@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -13,6 +15,10 @@
     "compile": "rimraf lib/*; babel src/ -d lib/ -s",
     "prepublish": "npm run compile"
   },
+  "bugs": {
+    "url": "https://github.com/lionep/node-gnome-nmcli/issues"
+  },
+  "homepage": "https://github.com/lionep/node-gnome-nmcli#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.2.3",
